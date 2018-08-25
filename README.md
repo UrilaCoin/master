@@ -1,8 +1,8 @@
-Urila Core (fork PIVX) integration/staging repository
+Urila Core (fork PIVX/LPC) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/lpcproject/lpcinstall) to install a Urila Masternode on a Linux server running Ubuntu 14.04 or 16.04
+It is recommended [use the shell script]to install a Urila Masternode on a Linux server running Ubuntu 14.04 or 16.04
 
 ***
 
@@ -45,8 +45,7 @@ Demon status:
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/lpcproject/Urila/releases
 
-P2P port: 39797, RPC port: 39798
+P2P port: 4562, RPC port: 39798
 -
 Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.

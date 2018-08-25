@@ -121,7 +121,7 @@ public:
         pchMessageStart[2] = 0x4c;
         pchMessageStart[3] = 0x5b;
         vAlertPubKey = ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
-        nDefaultPort = 39797;
+        nDefaultPort = 4562;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Urila starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -130,8 +130,8 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Urila: 1 day
-        nTargetSpacing = 1 * 60;  // Urila: 1 minute
-        nLastPOWBlock = 25000;
+        nTargetSpacing = 1 * 60;  // Urila: 2 minute
+        nLastPOWBlock = 4000;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 4500;
